@@ -165,10 +165,10 @@ flag=1
 				os.system(f)
 				print("Directory removed succesfully!!!")
 		      else:
-			      pyttsx3.speak("Sorry, not found")
-			      print("Sorry, Not found!!!")
-		              print("\nDo you want to continue(y/n):")
-				a=input()
+			   pyttsx3.speak("Sorry, not found")
+			   print("Sorry, Not found!!!")
+		           print("\nDo you want to continue(y/n):")
+			        a=input()
 				if("y" in a):
 				     flag=1
 				else:
