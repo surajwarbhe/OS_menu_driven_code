@@ -164,7 +164,7 @@ flag=1
 				x="rmdir "+f
 				os.system(f)
 				print("Directory removed succesfully!!!")
-		      else :
+		      else:
 			      pyttsx3.speak("Sorry, not found")
 			      print("Sorry, Not found!!!")
 		              print("\nDo you want to continue(y/n):")
